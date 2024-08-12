@@ -36,7 +36,7 @@ $depart = $_POST['department'];
     </table>
     <p>
         <button id="complete-btn" onclick="location.href='complete.php';">確定</button>
-        <button id="cancel-btn" onclick="location.href='confirm.php';">キャンセル</button>
+        <button id="cancel-btn" onclick="history.back();">キャンセル</button>
     </p>
 </body>
 </html>
